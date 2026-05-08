@@ -1,0 +1,44 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #130939;
+    color: white;
+    margin: 0;
+
+}
+
+h1 {
+   
+    
+}
+
+.search-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 14px;
+    border : 2px solid #fff;
+    background: transparent;
+    overflow: hidden;
+   
+}
+
+input {
+    background-color: #130939;
+    border: none;
+    appearance: none;
+     color: #fff;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
