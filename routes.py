@@ -10,3 +10,10 @@ def register_routes(app):
     def minha_lista():
         return "toma a lista do pae otarios"
     
+    @app.route("/Assitidos")
+    def assitidos():
+        return "esses são meus filmes assitidos"
+    
+    @app.route("/login")
+    def login():
+        return "tela de login"
