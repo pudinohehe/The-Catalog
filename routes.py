@@ -14,6 +14,3 @@ def register_routes(app):
     def assitidos():
         return "esses são meus filmes assitidos"
     
-    @app.route("/login")
-    def login():
-        return "tela de login"
