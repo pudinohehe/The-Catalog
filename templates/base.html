@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+    {% block page_css %}{% endblock %}
+    <title>{% block title %}The Catalog{% endblock %}</title>
 </head>
 <body>
-    
+    {% block content %}{% endblock %}
 </body>
 </html>
