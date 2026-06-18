@@ -8,7 +8,7 @@ def register_routes(app):
     
     @app.route("/Minha-Lista")
     def minha_lista():
-        return "toma a lista do pae otarios"
+        return render_template("Minha-Lista.html")
     
     @app.route("/Assitidos")
     def assitidos():
