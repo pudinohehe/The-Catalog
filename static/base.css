@@ -9,3 +9,16 @@ body {
     margin: 0;
 
 }
+
+.linklista {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #130939;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

@@ -8,6 +8,8 @@
     <title>{% block title %}The Catalog{% endblock %}</title>
 </head>
 <body>
+    <a class="linklista" href="{{ url_for('minha_lista') }}" target="_self">
+        ir para minha lista </a>
     {% block content %}{% endblock %}
 </body>
 </html>
