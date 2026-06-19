@@ -16,9 +16,24 @@ body {
     right: 0;
     margin: 20px;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #130939;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    background: transparent;
+    font-size: 1em;
+}
+
+.linkassist {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    margin: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background: transparent;
+    font-size: 1em;
 }

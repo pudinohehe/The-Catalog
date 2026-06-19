@@ -11,6 +11,6 @@ def register_routes(app):
         return render_template("Minha-Lista.html")
     
     @app.route("/Assitidos")
-    def assitidos():
-        return "esses são meus filmes assitidos"
+    def assistidos():
+        return render_template("assistidos.html")
     

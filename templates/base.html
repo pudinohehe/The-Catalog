@@ -9,7 +9,9 @@
 </head>
 <body>
     <a class="linklista" href="{{ url_for('minha_lista') }}" target="_self">
-        ir para minha lista </a>
+        Minha Lista </a>
+    <a class="linkassist" href="{{ url_for('assistidos') }}" target="_self">
+        Assistidos </a>
     {% block content %}{% endblock %}
 </body>
 </html>
