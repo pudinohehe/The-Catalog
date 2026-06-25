@@ -1,4 +1,5 @@
 const searchInput = document.querySelector('input[type="search"]');
+const resultContainer = document.querySelector('.results')
 console.log(searchInput);
 
 
@@ -13,7 +14,16 @@ searchInput.addEventListener('input', function() {
         fetch('/search-films?name=' + searchInput.value)
         .then(response => response.json())
         .then(films => {
-        console.log(films);
+            resultContainer.innerHTML = '';
+            films.forEach(function(film) {
+                const cardstructure = `
+                <div class="movie-card">
+                    <h3>${film.title}</h3>
+                    <p> title: ${film.title}</p>
+                    </div>`;
+                resultContainer.innerHTML += cardstructure;
+            })
+            console.log(films);
         })
     }
 

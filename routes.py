@@ -21,12 +21,12 @@ def register_routes(app):
     @app.route("/search-films")
     def search_films():
         movie = request.args.get("name")
-        movie_data = {
-            "title": movie,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        movie_data = [{
+            "title": "the Prestige",
+            "description": "x1 de magico foda",
             "release_year": 2023,
             "rating": 8.5
-        }
+        }]
         return jsonify(movie_data)
 
    
