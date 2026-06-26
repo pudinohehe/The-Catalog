@@ -19,7 +19,7 @@ searchInput.addEventListener('input', function() {
                 const cardstructure = `
                 <div class="movie-card">
                     <h3>${film.title}</h3>
-                    <p> title: ${film.title}</p>
+                    <p> description: ${film.description}</p>
                     </div>`;
                 resultContainer.innerHTML += cardstructure;
             })
